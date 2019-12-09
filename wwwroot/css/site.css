@@ -1,0 +1,73 @@
+﻿html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.messages {
+    overflow-y: scroll;
+    height: auto !important;
+    min-height: 100%;
+    border: 1px solid grey;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.input-block {
+    margin-top: 20px;
+}
+
+.form-control {
+    border: 1px solid grey;
+    border-radius: 0px;
+}
+
+    .form-control:focus {
+        color: #495057;
+        background-color: #fff;
+        border-color: grey;
+        outline: 0;
+        box-shadow: none;
+    }
+
+.btn {
+    border-radius: 0px;
+}
+
+.btn-outline-secondary.focus, .btn-outline-secondary:focus {
+    box-shadow: none;
+}
+
+.user-div {
+    padding: 10px;
+    margin: 0px;
+}
+
+.user {
+    padding: 10px;
+    margin: 0px;
+    background-color: #54bbff;
+    border-radius: 5px;
+}
+
+.bot-div {
+    padding: 10px;
+    margin: 0px;
+}
+
+.bot {
+    padding: 10px;
+    margin: 0px;
+    background-color: #e6b159;
+    border-radius: 5px;
+}
+
+.text {
+    margin-left: 15px;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+}
