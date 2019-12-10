@@ -54,7 +54,7 @@ $('button').on('click', function (e) {
 //Отобразить текст сообщения пользоваетя в окне сообщений
 function addUserText(text) {
     var html = '' +
-        '<div class="row user-div">' +
+        '<div class="row user-div animated fadeInLeft">' +
         '    <div class="col-md-3">' +
         '        &nbsp;' +
         '    </div>' +
@@ -69,7 +69,7 @@ function addUserText(text) {
 //Отбразить текст ответа бота в окне сообщений
 function addBotText(text) {
     var html = '' +
-        '<div class="row bot-div">' +
+        '<div class="row bot-div animated fadeInRight">' +
         '    <div class="col-md-9 text-left bot">' +
         '        <img src="/images/bot.png" /><span class="text">' + text + '</span>' +
         '    </div>' +

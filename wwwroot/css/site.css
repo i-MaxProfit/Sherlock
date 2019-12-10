@@ -8,7 +8,8 @@
 }
 
 .messages {
-    overflow-y: scroll;
+    overflow-y: auto;
+    overflow-x: hidden;
     height: auto !important;
     min-height: 100%;
     border: 1px solid grey;
@@ -70,4 +71,17 @@
     margin-right: 0;
     margin-bottom: 0;
     margin-top: 0;
+}
+
+div::-webkit-scrollbar {
+    width: 1em;
+}
+
+div::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.3);
+}
+
+div::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
 }
